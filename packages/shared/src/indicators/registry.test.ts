@@ -1,3 +1,6 @@
+
+
+
 import { describe, expect, it } from "vitest";
 import type { Candle } from "../types";
 import { computeIndicator, createIndicatorConfig, indicatorLabel, sanitizeIndicatorParams } from "./registry";

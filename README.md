@@ -8,6 +8,35 @@ TypeScript and TradingView Lightweight Charts.
 > It is labelled as such throughout the UI and is **not real market data**. Portfolio, positions,
 > orders and news are fictional demo fixtures. The app is read-only: it never places orders.
 
+## Screenshots
+
+> All prices in these screenshots come from the built-in simulator; portfolio, orders and news are
+> demo fixtures.
+
+**Terminal — dark theme (default)**
+
+![Trading terminal in dark theme with watchlist, NIFTY 50 chart, RSI pane, positions, market overview, portfolio and news](docs/screenshots/dashboard-dark.png)
+
+**Daily chart with Bollinger Bands, volume, RSI and MACD**
+
+![TCS daily candlestick chart with Bollinger Bands, SMA, EMA, volume, RSI and MACD panes](docs/screenshots/chart-indicators.png)
+
+**Indicator settings**
+
+![Indicators dialog listing available studies and editable inputs and colours](docs/screenshots/indicator-settings.png)
+
+**Light theme**
+
+![Trading terminal in light theme showing a RELIANCE 1-hour chart](docs/screenshots/dashboard-light.png)
+
+**Instrument search (Ctrl/⌘ + K)**
+
+![Instrument search dialog with results for "bank"](docs/screenshots/symbol-search.png)
+
+**Mobile layout**
+
+<img src="docs/screenshots/mobile.png" alt="Terminal on a phone-width screen showing the watchlist and chart" width="320">
+
 ## Quick start
 
 Requirements: Node.js ≥ 22, pnpm ≥ 10.
