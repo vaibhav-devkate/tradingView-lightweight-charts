@@ -1,0 +1,8 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    // Isomorphic package: runs in the browser (dev mock) and in Node (API server).
+    "lib": ["ES2022", "DOM"]
+  },
+  "include": ["src"]
+}

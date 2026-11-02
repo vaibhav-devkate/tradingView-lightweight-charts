@@ -1,0 +1,28 @@
+{
+  "name": "trading-dashboard",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Customizable real-time trading dashboard for Indian markets (NSE/BSE)",
+  "packageManager": "pnpm@11.22.0",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "dev": "pnpm --filter @td/web dev",
+    "build": "pnpm --filter @td/web build",
+    "start": "pnpm --filter @td/web start",
+    "lint": "pnpm -r --if-present lint",
+    "typecheck": "pnpm -r --if-present typecheck",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "check": "pnpm typecheck && pnpm lint && pnpm test && pnpm format:check"
+  },
+  "devDependencies": {
+    "prettier": "^3.9.10",
+    "typescript": "^5.9.3",
+    "vitest": "^5.1.0"
+  }
+}
